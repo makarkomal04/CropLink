@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "http://13.127.154.240:5000/api/$1"
+    },
+    {
+      "source": "/uploads/(.*)",
+      "destination": "http://13.127.154.240:5000/uploads/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

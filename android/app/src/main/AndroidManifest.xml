@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CropLink"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- Splash Screen - Launcher -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CropLink.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication -->
+        <activity android:name=".LoginActivity" android:exported="false" />
+        <activity android:name=".RegisterActivity" android:exported="false" />
+        <activity android:name=".ProductVerificationActivity" android:exported="false" />
+        <activity android:name=".customer.WalletActivity" android:exported="false" />
+
+        <!-- Customer Activities -->
+        <activity android:name=".customer.ShopActivity" android:exported="false" />
+        <activity android:name=".customer.CartActivity" android:exported="false" />
+        <activity android:name=".customer.PaymentActivity" android:exported="false" />
+        <activity android:name=".customer.MyOrdersActivity" android:exported="false" />
+
+        <!-- Farmer Activities -->
+        <activity android:name=".farmer.FarmerDashboardActivity" android:exported="false" />
+        <activity android:name=".farmer.AddProductActivity" android:exported="false" />
+        <activity android:name=".farmer.FarmerRevenueActivity" android:exported="false" />
+        <activity android:name=".farmer.FarmerOrdersActivity" android:exported="false" />
+
+        <!-- Admin Activities -->
+        <activity android:name=".admin.AdminDashboardActivity" android:exported="false" />
+        <activity android:name=".admin.UserManagementActivity" android:exported="false" />
+        <activity android:name=".admin.ProductApprovalsActivity" android:exported="false" />
+        <activity android:name=".admin.WarehouseActivity" android:exported="false" />
+
+        <!-- Shipment & Delivery -->
+        <activity android:name=".shipment.ShipmentManagerActivity" android:exported="false" />
+        <activity android:name=".delivery.DeliveryBoyActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

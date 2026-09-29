@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Projects 2025\\Final Year projects\\CropLink\\blockchain\\contracts\\OrderContract.sol": {
+      "lastModificationDate": 1768919572835,
+      "contentHash": "58ffa96e5e641b364ce99a465b3666da",
+      "sourceName": "contracts/OrderContract.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "OrderContract"
+      ]
+    },
+    "D:\\Projects 2025\\Final Year projects\\CropLink\\blockchain\\contracts\\ProductAuthenticity.sol": {
+      "lastModificationDate": 1769499880317,
+      "contentHash": "0fb6e7e3e830f33ed25afa6dd110cb40",
+      "sourceName": "contracts/ProductAuthenticity.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "ProductAuthenticity"
+      ]
+    }
+  }
+}

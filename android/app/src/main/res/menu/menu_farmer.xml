@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_orders"
+        android:title="@string/farmer_orders"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_revenue"
+        android:title="@string/revenue"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_wallet"
+        android:title="@string/wallet"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout"
+        app:showAsAction="never"/>
+
+</menu>

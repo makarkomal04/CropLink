@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CropLink" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/farmer_green</item>
+        <item name="colorPrimaryVariant">@color/farmer_green_dark</item>
+        <item name="colorAccent">@color/farmer_yellow</item>
+        <item name="android:statusBarColor">@color/farmer_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.CropLink" parent="Base.Theme.CropLink" />
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.CropLink.Splash" parent="Theme.CropLink">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/farmer_green</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_subtitle</item>
+    </style>
+    
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/farmer_green</item>
+        <item name="strokeColor">@color/farmer_green</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_subtitle</item>
+    </style>
+    
+    <!-- TextInputLayout Style -->
+    <style name="TextInputLayout.Style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/farmer_green</item>
+        <item name="hintTextColor">@color/farmer_green</item>
+        <item name="android:textColorHint">@color/gray_500</item>
+    </style>
+    
+    <!-- Card Style -->
+    <style name="CardView.Style" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="Text">
+        <item name="android:textColor">@color/gray_900</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="Text.Subtitle">
+        <item name="android:textSize">@dimen/text_subtitle</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+    
+    <style name="Text.Body">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/gray_800</item>
+    </style>
+    
+    <style name="Text.Caption">
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/gray_600</item>
+    </style>
+</resources>

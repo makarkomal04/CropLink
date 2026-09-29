@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:padding="@dimen/spacing_large">
+
+    <!-- Logo Placeholder -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌾"
+        android:textSize="80sp"
+        android:layout_marginBottom="@dimen/spacing_medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/text_display"
+        android:textStyle="bold"
+        android:textColor="@color/farmer_green"
+        android:layout_marginBottom="@dimen/spacing_small"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fresh_from_farm"
+        android:textSize="@dimen/text_subtitle"
+        android:textColor="@color/gray_600"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/spacing_xlarge"/>
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:indeterminateTint="@color/farmer_green"/>
+
+</LinearLayout>

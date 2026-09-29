@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">क्रॉपलिंक</string>
+
+    <!-- Common -->
+    <string name="ok">ठीक आहे</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="yes">होय</string>
+    <string name="no">नाही</string>
+    <string name="save">जतन करा</string>
+    <string name="delete">हटवा</string>
+    <string name="edit">संपादित करा</string>
+    <string name="submit">सबमिट करा</string>
+    <string name="search">शोधा</string>
+    <string name="filter">फिल्टर</string>
+    <string name="sort">क्रमवारी लावा</string>
+    <string name="loading">लोड होत आहे...</string>
+    <string name="no_results">कोणतेही परिणाम सापडले नाहीत</string>
+    <string name="error_occurred">एक त्रुटी उद्भवली</string>
+    
+    <!-- Language Support -->
+    <string name="select_language">भाषा निवडा</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="marathi">मराठी</string>
+    <string name="language_changed">भाषा यशस्वीरित्या बदलली</string>
+    
+    <!-- Splash -->
+    <string name="welcome_to">मध्ये आपले स्वागत आहे</string>
+    <string name="fresh_from_farm">शेतातून ताजे, थेट तुमच्या टेबलवर</string>
+    
+    <!-- Authentication -->
+    <string name="login">लॉगिन</string>
+    <string name="register">नोंदणी</string>
+    <string name="logout">लॉगआउट</string>
+    <string name="welcome_back">परत स्वागत आहे</string>
+    <string name="sign_in_account">तुमच्या खात्यात साइन इन करा</string>
+    <string name="email_address">ईमेल पत्ता</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm_password">पासवर्डची पुष्टी करा</string>
+    <string name="full_name">पूर्ण नाव</string>
+    <string name="sign_in">साइन इन</string>
+    <string name="signing_in">साइन इन होत आहे...</string>
+    <string name="create_account">खाते तयार करा</string>
+    <string name="have_account">आधीपासून खाते आहे?</string>
+    <string name="no_account">खाते नाही?</string>
+    <string name="register_here">येथे नोंदणी करा</string>
+    <string name="login_here">येथे लॉगिन करा</string>
+    <string name="select_role">तुमची भूमिका निवडा</string>
+    <string name="customer">ग्राहक</string>
+    <string name="farmer">शेतकरी</string>
+    <string name="admin">प्रशासक</string>
+    <string name="farm_location">शेताचे स्थान</string>
+    <string name="optional">ऐच्छिक</string>
+    <string name="registration_success">नोंदणी यशस्वी!</string>
+    <string name="login_success">परत स्वागत आहे, %s!</string>
+    
+    <!-- Validation -->
+    <string name="error_email_required">ईमेल आवश्यक आहे</string>
+    <string name="error_email_invalid">कृपया वैध ईमेल प्रविष्ट करा</string>
+    <string name="error_password_required">पासवर्ड आवश्यक आहे</string>
+    <string name="error_password_length">पासवर्ड किमान 6 वर्णांचा असावा</string>
+    <string name="error_passwords_dont_match">पासवर्ड जुळत नाहीत</string>
+    <string name="error_name_required">नाव आवश्यक आहे</string>
+    <string name="error_role_required">कृपया भूमिका निवडा</string>
+    
+    <!-- Shop -->
+    <string name="marketplace">बाजारपेठ</string>
+    <string name="search_products">ताजे उत्पादन शोधा...</string>
+    <string name="categories">श्रेण्या</string>
+    <string name="all">सर्व</string>
+    <string name="vegetables">भाज्या</string>
+    <string name="fruits">फळे</string>
+    <string name="grains">धान्य</string>
+    <string name="dairy">दुग्धशाळा</string>
+    <string name="price_range">किंमत श्रेणी</string>
+    <string name="type">प्रकार</string>
+    <string name="organic">सेंद्रिय</string>
+    <string name="conventional">पारंपारिक</string>
+    <string name="all_products">सर्व उत्पादने</string>
+    <string name="organic_only">🌿 फक्त सेंद्रिय</string>
+    <string name="sort_by">याद्वारे क्रमवारी लावा</string>
+    <string name="newest_first">नवीनतम प्रथम</string>
+    <string name="price_low_high">किंमत: कमी ते जास्त</string>
+    <string name="price_high_low">किंमत: जास्त ते कमी</string>
+    <string name="showing_products">%d उत्पादने दाखवत आहे</string>
+    <string name="showing_product">%d उत्पादन दाखवत आहे</string>
+    <string name="show_filters">फिल्टर दाखवा</string>
+    <string name="hide_filters">फिल्टर लपवा</string>
+    <string name="add_to_cart">कार्टमध्ये जोडा</string>
+    <string name="added_to_cart">कार्टमध्ये जोडले!</string>
+    <string name="per_kg">प्रति किलो</string>
+    <string name="in_stock">स्टॉकमध्ये</string>
+    <string name="out_of_stock">स्टॉक संपला</string>
+    
+    <!-- Cart -->
+    <string name="cart">कार्ट</string>
+    <string name="my_cart">माझे कार्ट</string>
+    <string name="cart_empty">तुमचे कार्ट रिक्त आहे</string>
+    <string name="start_shopping">खरेदी सुरू करा</string>
+    <string name="quantity">प्रमाण</string>
+    <string name="total">एकूण</string>
+    <string name="subtotal">उपयोग</string>
+    <string name="checkout">चेकआउट</string>
+    <string name="remove_from_cart">काढा</string>
+    <string name="item_removed">कार्टमधून आयटम काढला</string>
+    <string name="order_placed_successfully">ऑर्डर यशस्वीरित्या दिली!</string>
+    <string name="proceed_to_checkout">चेकआउटवर जा</string>
+    
+    <!-- Orders -->
+    <string name="my_orders">माझ्या ऑर्डर</string>
+    <string name="order_id">ऑर्डर आयडी</string>
+    <string name="order_date">ऑर्डर तारीख</string>
+    <string name="order_status">स्थिती</string>
+    <string name="order_total">ऑर्डर एकूण</string>
+    <string name="no_orders">अजून कोणतीही ऑर्डर नाही</string>
+    <string name="status_pending">प्रलंबित</string>
+    <string name="status_processing">प्रक्रिया</string>
+    <string name="status_shipped">पाठवले</string>
+    <string name="status_delivered">वितरित</string>
+    <string name="status_cancelled">रद्द</string>
+    
+    <!-- Farmer Dashboard -->
+    <string name="farmer_dashboard">शेतकरी डॅशबोर्ड</string>
+    <string name="my_products">माझी उत्पादने</string>
+    <string name="add_product">उत्पादन जोडा</string>
+    <string name="edit_product">उत्पादन संपादित करा</string>
+    <string name="product_name">उत्पादनाचे नाव</string>
+    <string name="category">श्रेणी</string>
+    <string name="product_type">उत्पादन प्रकार</string>
+    <string name="quantity_kg">प्रमाण (किलो)</string>
+    <string name="price_per_kg">प्रति किलो किंमत</string>
+    <string name="description">वर्णन</string>
+    <string name="select_image">प्रतिमा निवडा</string>
+    <string name="product_added">उत्पादन यशस्वीरित्या जोडले!</string>
+    <string name="product_updated">उत्पादन अपडेट झाले!</string>
+    <string name="product_deleted">उत्पादन हटवले!</string>
+    <string name="farmer_orders">शेतकऱ्यांच्या ऑर्डर</string>
+    <string name="incoming_orders">येणाऱ्या ऑर्डर</string>
+    <string name="no_products">अजून कोणतीही उत्पादने नाहीत</string>
+    <string name="total_products">एकूण उत्पादने</string>
+    <string name="total_revenue">एकूण महसूल</string>
+    <string name="pending_approval">मंजुरी प्रलंबित</string>
+    <string name="approved">मंजूर</string>
+    
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard">प्रशासक डॅशबोर्ड</string>
+    <string name="user_management">वापरकर्ता व्यवस्थापन</string>
+    <string name="product_approvals">उत्पादन मंजूरी</string>
+    <string name="warehouse_management">गोदाम व्यवस्थापन</string>
+    <string name="total_users">एकूण वापरकर्ते</string>
+    <string name="total_orders">एकूण ऑर्डर</string>
+    <string name="pending_products">प्रलंबित उत्पादने</string>
+    <string name="all_users">सर्व वापरकर्ते</string>
+    <string name="role">भूमिका</string>
+    <string name="verify_farmer">शेतकरी सत्यापित करा</string>
+    <string name="verified">सत्यापित</string>
+    <string name="not_verified">सत्यापित नाही</string>
+    <string name="approve">मंजूर करा</string>
+    <string name="reject">नाकारा</string>
+    <string name="pending_approvals">प्रलंबित मंजूरी</string>
+    <string name="product_approved">उत्पादन मंजूर!</string>
+    <string name="product_rejected">उत्पादन नाकारले!</string>
+    
+    <!-- Warehouse -->
+    <string name="warehouse_orders">गोदाम ऑर्डर</string>
+    <string name="quality_inspection">गुणवत्ता तपासणी</string>
+    <string name="mark_as_inspected">तपासलेले म्हणून चिन्हांकित करा</string>
+    <string name="mark_as_shipped">पाठवलेले म्हणून चिन्हांकित करा</string>
+    <string name="mark_as_delivered">वितरित म्हणून चिन्हांकित करा</string>
+    <string name="inspection_pending">तपासणी प्रलंबित</string>
+    <string name="inspected">तपासले</string>
+    
+    <!-- Menu -->
+    <string name="home">मुख्यपृष्ठ</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="settings">सेटिंग्ज</string>
+    <string name="language">भाषा</string>
+    <string name="about">बद्दल</string>
+    
+    <!-- Messages -->
+    <string name="confirm_logout">तुम्हाला खात्री आहे की तुम्ही लॉगआउट करू इच्छिता?</string>
+    <string name="confirm_delete">तुम्हाला खात्री आहे की तुम्ही हा आयटम हटवू इच्छिता?</string>
+    <string name="logout_success">यशस्वीरित्या लॉगआउट झाले</string>
+    <string name="session_expired">सत्र संपले. कृपया पुन्हा लॉगिन करा.</string>
+    
+    <!-- Currency -->
+    <string name="rupee_symbol">₹</string>
+    <string name="price_format">₹%s</string>
+</resources>

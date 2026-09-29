@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_small"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="@dimen/card_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_medium">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/product_image_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            android:background="@color/gray_200"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:contentDescription="@string/product_image"/>
+
+        <!-- Organic Badge -->
+        <TextView
+            android:id="@+id/tvOrganicBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌿 @string/organic"
+            android:textSize="@dimen/text_caption"
+            android:textColor="@color/organic_green"
+            android:background="@color/farmer_yellow_light"
+            android:paddingStart="@dimen/spacing_small"
+            android:paddingEnd="@dimen/spacing_small"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_marginBottom="@dimen/spacing_small"
+            android:visibility="gone"/>
+
+        <!--Product Name -->
+        <TextView
+            android:id="@+id/tvProductName"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <!-- Category -->
+        <TextView
+            android:id="@+id/tvCategory"
+            style="@style/Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:layout_marginTop="@dimen/spacing_tiny"/>
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹00 per kg"
+            android:textSize="@dimen/text_subtitle"
+            android:textColor="@color/farmer_green"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/spacing_small"/>
+
+        <!-- Stock Status -->
+        <TextView
+            android:id="@+id/tvStock"
+            style="@style/Text.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_stock"
+            android:layout_marginTop="@dimen/spacing_tiny"/>
+
+        <!-- Type (Hidden field for data) -->
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"/>
+
+        <!-- Add to Cart Button -->
+        <Button
+            android:id="@+id/btnAddToCart"
+            style="@style/Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_cart"
+            android:layout_marginTop="@dimen/spacing_medium"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
